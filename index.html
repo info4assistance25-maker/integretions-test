@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="music.css">
 </head>
 <body>
 <div class="glow"></div>
@@ -90,5 +91,6 @@ document.querySelectorAll('.count').forEach(el=>{const to=+el.dataset.to;let n=0
 const c=document.getElementById('card');
 if(matchMedia('(hover:hover)').matches){c.addEventListener('mousemove',e=>{const r=c.getBoundingClientRect();const x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;c.style.transform=`rotateY(${x*14}deg) rotateX(${-y*14}deg)`});c.addEventListener('mouseleave',()=>c.style.transform='')}
 </script>
+<script src="music.js"></script>
 </body>
 </html>
