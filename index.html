@@ -4,71 +4,76 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Il Re dei Bomber – Scheda Fantacalcio</title>
-<meta name="description" content="Scheda calciatore de Il Bomber – Fantaclub Gli Invincibili">
+<meta name="description" content="Il Bomber – Fantaclub Gli Invincibili. 38 gol, fantamedia 8,5.">
+<meta property="og:title" content="Il Re dei Bomber">
+<meta property="og:image" content="img/bomber.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="glow"></div>
 <header class="topbar">
   <a href="#" class="back" aria-label="Indietro">&lsaquo;</a>
-  <h1>Scheda calciatore</h1>
-  <span></span>
+  <span class="brand">Scheda calciatore</span>
+  <span class="badge">Stagione 25/26</span>
 </header>
 
 <main>
-  <section class="card">
-    <div class="card-head">
-      <div class="rating"><strong>94</strong><span>ATT</span></div>
-      <div class="photo" role="img" aria-label="Foto del giocatore">⚽</div>
+  <section class="hero">
+    <div class="card" id="card">
+      <div class="shine"></div>
+      <div class="card-top">
+        <div class="rating"><strong>94</strong><span>ATT</span><em>👑</em></div>
+        <div class="photo">
+          <img src="img/bomber.jpg" alt="Il Bomber" onerror="this.parentElement.classList.add('nophoto');this.remove()">
+        </div>
+      </div>
+      <h1 class="name">Il Bomber</h1>
+      <ul class="attrs">
+        <li><strong>96</strong><span>TIR</span></li>
+        <li><strong>91</strong><span>RIT</span></li>
+        <li><strong>78</strong><span>VEL</span></li>
+        <li><strong>88</strong><span>DRI</span></li>
+        <li><strong>90</strong><span>FIS</span></li>
+        <li><strong>99</strong><span>CAR</span></li>
+      </ul>
     </div>
-    <h2 class="name">Il Bomber</h2>
-    <ul class="attrs">
-      <li><span>TIR</span><strong>96</strong></li>
-      <li><span>RIT</span><strong>91</strong></li>
-      <li><span>VEL</span><strong>78</strong></li>
-      <li><span>DRI</span><strong>88</strong></li>
-      <li><span>FIS</span><strong>90</strong></li>
-      <li><span>CAR</span><strong>99</strong></li>
-    </ul>
-  </section>
-
-  <section class="info panel">
-    <div class="role">A</div>
-    <div>
-      <h3>Il Bomber</h3>
-      <p>Fantaclub Gli Invincibili · Attaccante</p>
+    <div class="hero-text">
+      <p class="kicker">Fantaclub Gli Invincibili · Attaccante</p>
+      <h2>Il Re dei <span>Bomber</span></h2>
+      <p class="lead"><b class="count" data-to="38">0</b> gol in <b class="count" data-to="35">0</b> presenze. Rigori: perfetto.</p>
     </div>
   </section>
 
   <section class="quotes">
-    <div class="panel"><strong>38</strong><span>Qt. attuale</span></div>
-    <div class="panel"><strong>36</strong><span>Qt. iniziale</span></div>
-    <div class="panel"><strong>92</strong><span>FVM</span></div>
+    <div class="panel"><strong class="count" data-to="38">0</strong><span>Qt. attuale</span><small class="up">▲ +2</small></div>
+    <div class="panel"><strong class="count" data-to="36">0</strong><span>Qt. iniziale</span></div>
+    <div class="panel"><strong class="count" data-to="92">0</strong><span>FVM</span></div>
   </section>
 
   <section class="panel">
     <h3>Statistiche stagione</h3>
     <dl class="stats">
-      <div><dt>Fantamedia</dt><dd>8,5</dd></div>
+      <div class="hl"><dt>Fantamedia</dt><dd>8,5</dd></div>
       <div><dt>Presenze</dt><dd>35</dd></div>
-      <div><dt>Gol</dt><dd>38</dd></div>
+      <div class="hl"><dt>Gol</dt><dd>38</dd></div>
       <div><dt>Assist</dt><dd>9</dd></div>
-      <div><dt>Rigori segnati</dt><dd>11/11</dd></div>
+      <div><dt>Rigori segnati</dt><dd>11/11</dd><div class="bar"><i style="width:100%"></i></div></div>
       <div><dt>Ammonizioni</dt><dd>3</dd></div>
     </dl>
   </section>
 
   <section class="panel">
     <h3>Ultimi fantavoti</h3>
-    <ul class="votes">
-      <li class="top"><strong>10</strong><span>G38</span></li>
-      <li class="good"><strong>8,5</strong><span>G37</span></li>
-      <li class="ok"><strong>7</strong><span>G36</span></li>
-      <li class="top"><strong>9,5</strong><span>G35</span></li>
-      <li class="low"><strong>6</strong><span>G34</span></li>
-      <li class="good"><strong>8</strong><span>G33</span></li>
-    </ul>
+    <div class="chart">
+      <div class="col"><b>8</b><i style="--v:8"></i><span>G33</span></div>
+      <div class="col"><b>6</b><i style="--v:6"></i><span>G34</span></div>
+      <div class="col"><b>9,5</b><i style="--v:9.5"></i><span>G35</span></div>
+      <div class="col"><b>7</b><i style="--v:7"></i><span>G36</span></div>
+      <div class="col"><b>8,5</b><i style="--v:8.5"></i><span>G37</span></div>
+      <div class="col best"><b>10</b><i style="--v:10"></i><span>G38</span></div>
+    </div>
   </section>
 </main>
 
@@ -79,5 +84,11 @@
   <a href="#"><span>🏆</span>Classifica</a>
   <a href="#"><span>⋯</span>Altro</a>
 </nav>
+
+<script>
+document.querySelectorAll('.count').forEach(el=>{const to=+el.dataset.to;let n=0;const s=Math.max(1,Math.ceil(to/40));const t=setInterval(()=>{n=Math.min(to,n+s);el.textContent=n;if(n===to)clearInterval(t)},25)});
+const c=document.getElementById('card');
+if(matchMedia('(hover:hover)').matches){c.addEventListener('mousemove',e=>{const r=c.getBoundingClientRect();const x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;c.style.transform=`rotateY(${x*14}deg) rotateX(${-y*14}deg)`});c.addEventListener('mouseleave',()=>c.style.transform='')}
+</script>
 </body>
 </html>
